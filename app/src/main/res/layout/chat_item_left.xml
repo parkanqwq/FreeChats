@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatItemLeft"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/daTe3R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="daTe3"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bakcground_left_group">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/show_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:text="hello"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/daTe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/show_message"
+                android:layout_alignLeft="@id/show_message"
+                android:paddingLeft="5dp"
+                android:text="12:55"
+                android:textColor="@color/colorTimeAndData"
+                android:textSize="6sp" />
+
+            <LinearLayout
+                android:id="@+id/add_loat_foto"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/background_left"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="10dp"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/add_foto"
+                    android:layout_width="300dp"
+                    android:layout_height="580dp"
+                    android:padding="6dp"
+                    android:visibility="visible"
+                    tools:srcCompat="@tools:sample/avatars[7]" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/daTeImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/add_loat_foto"
+                android:layout_alignLeft="@id/add_loat_foto"
+                android:layout_marginTop="-9dp"
+                android:paddingLeft="5dp"
+                android:text="12:55"
+                android:textColor="@color/colorTimeAndData"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/dateLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/show_message"
+                android:layout_alignBottom="@id/show_message"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="1dp"
+                android:text="15.09.2020"
+                android:textColor="@color/colorTimeAndData"
+                android:textSize="8sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/dateLeftImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/add_loat_foto"
+                android:layout_alignBottom="@+id/add_loat_foto"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="1dp"
+                android:text="15.09.2020"
+                android:textColor="@color/colorTimeAndData"
+                android:textSize="8sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/show_message"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

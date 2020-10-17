@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104143009730",
+    "firebase_url": "https://free-chats-fanatikc.firebaseio.com",
+    "project_id": "free-chats-fanatikc",
+    "storage_bucket": "free-chats-fanatikc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104143009730:android:f802e09e1a08dd60b8c85b",
+        "android_client_info": {
+          "package_name": "com.example.freechats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104143009730-puiv6j5r7uialqr0afqja9bt6tk0vptm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freechats",
+            "certificate_hash": "73248e5da5b9c50eedbb5fcea0fba73c69fe33fb"
+          }
+        },
+        {
+          "client_id": "104143009730-sfihqelbsiv5miqn3r3bnvucr7n9jv7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjWZx0yoIctauqP8TTxjpbVpVH7yYMhQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104143009730-sfihqelbsiv5miqn3r3bnvucr7n9jv7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

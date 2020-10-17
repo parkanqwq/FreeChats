@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C5D86</color>
+    <color name="colorPrimaryDark">#2E82DF</color>
+    <color name="colorPrimaryDark2">#3C92F1</color>
+    <color name="colorAccent">#3C91F0</color>
+    <color name="colorChatRight">#B3D1F1</color>
+    <color name="colorChatLeft">#E7E4E4</color>
+    <color name="colorTimeAndData">#5583BE</color>
+
+
+</resources>
